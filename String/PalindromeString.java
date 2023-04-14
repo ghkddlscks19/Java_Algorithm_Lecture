@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class Main {
+public class PalindromeString {
     public String solution(String str) {
         String answer = "YES";
         char arr[] = str.toCharArray();
@@ -22,7 +24,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        PalindromeString m = new PalindromeString();
         Scanner sc = new Scanner(System.in);
         String str = sc.next().toLowerCase();
         System.out.println(m.solution(str));
