@@ -22,4 +22,4 @@ public class CaseConversion {
         String str = sc.next();
         System.out.println(m.solution(str));
     }
-}
+} 
