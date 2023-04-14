@@ -20,6 +20,6 @@ public class WordReverse {
             String str = sc.next();
             System.out.println(m.solution(str));
         }
-    }
+    } 
 
 }

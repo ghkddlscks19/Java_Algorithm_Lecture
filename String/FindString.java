@@ -21,5 +21,5 @@ public class FindString {
         String str = sc.next().toLowerCase();
         String findStr = sc.next().toLowerCase();
         System.out.println(findString.solution(str, findStr));
-    }
+    } 
 }
