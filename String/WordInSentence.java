@@ -25,4 +25,4 @@ public class WordInSentence {
         String str = sc.nextLine();
         System.out.println(m.solution(str));
     }
-}
+} 
