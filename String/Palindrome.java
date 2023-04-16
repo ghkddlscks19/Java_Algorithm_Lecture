@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class Main {
+public class Palindrome {
     public String solution(String str) {
         String answer = "YES";
         str = str.replaceAll("[^a-z0-9]","");
@@ -22,7 +24,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        Palindrome m = new Palindrome();
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine().toLowerCase();
         System.out.println(m.solution(str));
