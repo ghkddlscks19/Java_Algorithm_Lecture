@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class Main {
+public class ExtractNumber {
     public int solution(String str) {
         int answer = 0;
         str = str.replaceAll("[a-z]","");
@@ -11,7 +13,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        ExtractNumber m = new ExtractNumber();
         Scanner sc = new Scanner(System.in);
         String str = sc.next().toLowerCase();
         System.out.println(m.solution(str));
