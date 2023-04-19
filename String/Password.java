@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class Main {
+public class Password {
     public String solution(String str, int num) {
         String answer = "";
 
@@ -18,7 +20,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        Password m = new Password();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         String str = sc.next();
