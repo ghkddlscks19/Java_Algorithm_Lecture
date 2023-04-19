@@ -1,6 +1,9 @@
+package Array;
+
 import java.util.Scanner;
 
-public class Main {
+public class Eratosthenes {
+
     public int solution(int arr[], int num) {
         int answer = 0;
 
@@ -24,7 +27,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        Eratosthenes m = new Eratosthenes();
         Scanner sc = new Scanner(System.in);
 
         int num = sc.nextInt();
