@@ -1,7 +1,9 @@
+package Array;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class RockPaperScissors {
     public ArrayList<String> solution(int arr[][], int num) {
         ArrayList<String> answer = new ArrayList<>();
 
@@ -21,7 +23,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        RockPaperScissors m = new RockPaperScissors();
         Scanner sc = new Scanner(System.in);
 
         int num = sc.nextInt();
