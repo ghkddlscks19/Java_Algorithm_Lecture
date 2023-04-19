@@ -1,7 +1,10 @@
+package Array;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class BigNumberOutput {
+
     public ArrayList<Integer> solution(int arr[], int num) {
         ArrayList<Integer> answer = new ArrayList<>();
 
@@ -19,7 +22,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        BigNumberOutput m = new BigNumberOutput();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int arr[] = new int[num];
@@ -32,4 +35,3 @@ public class Main {
         }
 
     }
-}
