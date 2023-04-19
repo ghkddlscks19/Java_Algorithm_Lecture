@@ -1,7 +1,9 @@
-import java.util.ArrayList;
+package Array;
+
 import java.util.Scanner;
 
-public class Main {
+public class VisibleStudent {
+
     public int solution(int arr[], int num) {
         int answer = 0;
         int max = 0;
@@ -18,7 +20,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        VisibleStudent m = new VisibleStudent();
         Scanner sc = new Scanner(System.in);
 
         int num = sc.nextInt();
