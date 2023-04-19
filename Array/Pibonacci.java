@@ -1,7 +1,9 @@
-import java.util.ArrayList;
+package Array;
+
 import java.util.Scanner;
 
-public class Main {
+public class Pibonacci {
+
     public int[] solution(int num) {
         int[] answer = new int[num];
 
@@ -18,7 +20,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        Pibonacci m = new Pibonacci();
         Scanner sc = new Scanner(System.in);
 
         int num = sc.nextInt();
