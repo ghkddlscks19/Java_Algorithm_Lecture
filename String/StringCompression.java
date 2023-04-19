@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class Main {
+public class StringCompression {
     public String solution(String str) {
         String answer = "";
         int count = 1;
@@ -23,7 +25,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        StringCompression m = new StringCompression();
         Scanner sc = new Scanner(System.in);
         String str = sc.next()+" ".toUpperCase();
         System.out.println(m.solution(str));
