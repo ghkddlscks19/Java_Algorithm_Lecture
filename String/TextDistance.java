@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class Main {
+public class TextDistance {
     public int[] solution(String str, char t) {
         int[] answer = new int[str.length()];
         int p = 1000;
@@ -33,7 +35,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        TextDistance m = new TextDistance();
         Scanner sc = new Scanner(System.in);
         String str = sc.next().toLowerCase();
         char t = sc.next().toLowerCase().charAt(0);
