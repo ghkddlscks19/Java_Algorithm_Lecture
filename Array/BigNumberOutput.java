@@ -11,7 +11,7 @@ public class BigNumberOutput {
         answer.add(arr[0]);
 
         for (int i = 1; i < num; i++) {
-            if (arr[i] > arr[i-1]) {
+            if (arr[i] > arr[i - 1]) {
                 answer.add(arr[i]);
             }
         }
@@ -35,3 +35,4 @@ public class BigNumberOutput {
         }
 
     }
+}
