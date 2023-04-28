@@ -1,9 +1,11 @@
+package Array;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Main {
+public class GetRank {
 
     public ArrayList<Integer> solution(int arr[], int N) {
         ArrayList<Integer> answer = new ArrayList<>();
@@ -27,7 +29,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        GetRank m = new GetRank();
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt(); // 학생 수
