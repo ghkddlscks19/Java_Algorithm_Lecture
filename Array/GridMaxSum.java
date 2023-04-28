@@ -1,10 +1,8 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+package Array;
+
 import java.util.Scanner;
 
-public class Main {
-
+public class GridMaxSum {
     public int solution(int arr[][], int N) {
         int answer = 0;
         int max = Integer.MIN_VALUE;
@@ -64,7 +62,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        GridMaxSum m = new GridMaxSum();
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();
