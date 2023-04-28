@@ -1,9 +1,8 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+package Array;
+
 import java.util.Scanner;
 
-public class Main {
-
+public class Scoring {
     public int solution(int arr[], int N) {
         int answer = 0;
 
@@ -24,7 +23,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        Scoring m = new Scoring();
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt(); // 문제 수
