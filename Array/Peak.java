@@ -1,10 +1,8 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+package Array;
+
 import java.util.Scanner;
 
-public class Main {
-
+public class Peak {
     public int solution(int arr[][], int N) {
         int answer = 0;
 
@@ -23,7 +21,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        Peak m = new Peak();
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();
