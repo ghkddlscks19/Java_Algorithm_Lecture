@@ -1,7 +1,8 @@
+package Array;
+
 import java.util.Scanner;
 
-public class Main {
-
+public class ChoiceClassPresident {
     public int solution(int arr[][], int N) {
         int answer = 0;
         int max = Integer.MIN_VALUE;
@@ -26,7 +27,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main m = new Main();
+        ChoiceClassPresident m = new ChoiceClassPresident();
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();
