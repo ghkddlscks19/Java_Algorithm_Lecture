@@ -9,7 +9,7 @@ class Node{
         lt = rt = null;
     }
 }
-public class BinaryTreeTraverse {
+public class BinaryTreeTraverseDFS {
     Node root;
 
     public void DFS(Node root) {
@@ -34,7 +34,7 @@ public class BinaryTreeTraverse {
     }
 
     public static void main(String[] args) {
-        BinaryTreeTraverse tree = new BinaryTreeTraverse();
+        BinaryTreeTraverseDFS tree = new BinaryTreeTraverseDFS();
         tree.root = new Node(1);
         tree.root.lt = new Node(2);
         tree.root.rt = new Node(3);
